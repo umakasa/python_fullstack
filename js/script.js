@@ -16,3 +16,16 @@ let button = document.getElementById("btnGreeting");
 button.addEventListener("click", function() {
     alert("Welcome to javascript Event Handling");
 });
+let registerForm = document.getElementById("registerForm");
+registerForm.addEventListener("submit",function (event) {
+    event.preventDefault();
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    if (!name || !email || !passwors) {
+        alert("Registeration successfull");
+        console.log("Name:", name)
+        console.log("email:", email)
+        console.log("password:", password)
+    }
+});

@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #f83d0e;
+    background-color: #ec6206;
     color: #fff;
     padding: 30px;
     text-align: center;
@@ -73,8 +73,8 @@ p {
 }
 
 .banner {
-    width: 80%;
-    height: 150px;
+    width: 70%;
+    height: 500px;
     margin-bottom: 20px;
 }
 

@@ -319,7 +319,7 @@ height:auto;
 button#nextTrainerBtn,
 button#nextCourseBtn,
 button#applyCourseBtn {
-    background-color: #0d6efd;
+    background-color: #023b8f;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -335,17 +335,17 @@ button#applyCourseBtn {
 button#nextTrainerBtn:hover,
 button#nextCourseBtn:hover,
 button#applyCourseBtn:hover {
-    background-color: #0b5ed7;
+    background-color: #023b8f;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 button#applyCourseBtn {
-    background-color: #0b8899;
+    background-color: #0d5a64;
 }
 
 button#applyCourseBtn:hover {
-    background-color: #0b8899;
+    background-color: #0d5a64;
 }
 
 span#prevPopularCourseBtn,
